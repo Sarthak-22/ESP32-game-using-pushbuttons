@@ -8,3 +8,5 @@
 4) These pushbuttons act as up-down-left-right arrow keys of a computer.
 5) [BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) library is used for connecting ESP32 with device's bluetooth. Subsequent control signals from pushbuttons are sent to the device via bluetooth.
 6) The assembly of the circuit and the game can be figured out from the image below.
+
+![circuit]()  ![game]()
