@@ -240,27 +240,12 @@ int right = 18;
  
   Serial.println(WiFi.localIP());
  
-//  server.on("/html", HTTP_GET, [](AsyncWebServerRequest *request){
-//    request->send(200, "text/html", HTML);
-//  });
 
   server.on("/html", []() {
     server.send(200, "text/html", HTML);
   });
 
   server.begin();
-  
- 
-
-//  xTaskCreatePinnedToCore(  // Defines the task, assigns priority and assigns the core on which the task runs.
-//    createTask1, //  name of the function in which the task is stored
-//    "Task1",     // name of the task
-//    1000,        // Size of a task stack
-//    NULL,        // Pointer that will be used as the parameter for the task
-//    1,           // Priority of the task
-//    &Task1,      // Taskhandle/placeholder of the task
-//    1);          // Core on which the task should run  
-
   
 }
  
