@@ -1,9 +1,6 @@
 #include <BleKeyboard.h>
 #include <WiFi.h>
 #include <WebServer.h>
-#include <FS.h>
-#include <AsyncTCP.h>
-#include <ESPAsyncWebServer.h>
 
 BleKeyboard bleKeyboard;
 
