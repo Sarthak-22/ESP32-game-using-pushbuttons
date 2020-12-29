@@ -9,4 +9,7 @@
 5) [BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard) library is used for connecting ESP32 with device's bluetooth. Subsequent control signals from pushbuttons are sent to the device via bluetooth.
 6) The assembly of the circuit and the game can be figured out from the image below.
 
-![circuit]()  ![game]()
+![circuit](https://github.com/Sarthak-22/ESP32-game-using-pushbuttons/blob/main/IMG_20201229_220938__01.jpg)
+
+
+![game](https://github.com/Sarthak-22/ESP32-game-using-pushbuttons/blob/main/snake_game.png)
